@@ -94,3 +94,32 @@
     font-size: 14px;
   }
 }
+
+.status-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.status-online {
+  background-color: green;
+  animation: blinker 1.5s linear infinite;
+}
+
+.status-closed {
+  background-color: red;
+}
+
+.status-unknown {
+  background-color: orange;
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
+}
