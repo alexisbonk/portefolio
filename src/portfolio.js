@@ -78,7 +78,7 @@ const skills = {
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
             color: "#f89820",
           },
@@ -88,13 +88,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:ruby",
           style: {
             color: "#CC342D",
-          },
-        },
-        {
-          skillName: "Rails",
-          fontAwesomeClassname: "simple-icons:rails",
-          style: {
-            color: "white",
           },
         },
         {
@@ -133,13 +126,13 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
           style: {
             color: "#339933",
           },
         },
         {
-          skillName: "Android App Development",
+          skillName: "Android App",
           fontAwesomeClassname: "simple-icons:android",
           style: {
             color: "#3DDC84",
@@ -340,123 +333,28 @@ const degrees = {
   ],
 };
 
-/*
 const certifications = {
   certifications: [
     {
       title: "Deep Learning Specialization",
       subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
+      logo_path: "anssi.png",
       certificate_link:
         "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
       alt_name: "deeplearning.ai",
-      color_code: "#47A048",
+      color_code: "#3884b7",
     },
     {
       title: "Sequence Models",
       subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
+      logo_path: "googleSummerCode.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
       alt_name: "deeplearning.ai",
-      color_code: "#F6B808",
-    },
-    {
-      title: "Convolutional Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
-      alt_name: "deeplearning.ai",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Structuring Machine Learning Projects",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
-      alt_name: "deeplearning.ai",
-      color_code: "#E2405F",
-    },
-    {
-      title: "Machine Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Neural Networks and Deep Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
-      alt_name: "Google",
-      color_code: "#7A7A7A",
-    },
-    {
-      title: "Improving Deep Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Android Developer Nanodegree",
-      subtitle: "Part of Google India Scholarship Program",
-      logo_path: "100.png",
-      certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
-      alt_name: "Google",
-      color_code: "#C5E2EE",
-    },
-    {
-      title: "Google Summer of Code 2019",
-      subtitle: "Google / Sugar Labs",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffc475",
-    },
-    {
-      title: "Google Code-In Student",
-      subtitle: "2014-2017",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#1e70c1",
-    },
-    {
-      title: "Google Summer of Code Mentor",
-      subtitle: "2017 / 2018 / 2020",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffbfae",
-    },
-    {
-      title: "InOut 4.0 Winner #2",
-      subtitle: "2017",
-      logo_path: "ino.png",
-      certificate_link: " ",
-      alt_name: "InOut",
-      color_code: "#fffbf3",
-    },
-    {
-      title: "Google Code-In Mentor",
-      subtitle: "2017 / 2018 / 2019",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#b190b0",
+      color_code: "#dba400",
     },
   ],
 };
-*/
 
 const experience = {
   title: "Experience",
@@ -483,10 +381,36 @@ const experience = {
           duration_fr: "jan. 2022 - mai 2023 · 1 an et 5 mois",
           location: "Paris - France",
           location_fr: "Paris - France",
-          description:
-            "Technique Stack: Ruby on Rails, ReactJS, git, PostgreSQL, Redis, Heroku, AWS, NGINX, Linux",
-          description_fr:
-            "Stack technique: Ruby on Rails, ReactJS, git, PostgreSQL, Redis, Heroku, AWS, NGINX, Linux",
+          description: `
+            TASKS :
+            ▪ Integration of new features in the main app
+            ▪ Code reviews
+            ▪ Pair programming
+            ▪ Bug mastering
+            ▪ Bug fixing
+            
+            ENVIRONMENT :
+            ▪ Ruby on Rails
+            ▪ ReactJS
+            ▪ PostgreSQL
+            ▪ Heroku
+            ▪ AWS
+            ▪ 50-100 person office`,
+          description_fr: `
+            TACHES :
+            ▪ Intégration de nouvelles features dans l'app principale
+            ▪ Code reviews
+            ▪ Pair programming
+            ▪ Bug mastering
+            ▪ Correction de bugs
+            
+            ENVIRONNEMENT 
+            ▪ Ruby on Rails
+            ▪ ReactJS
+            ▪ PostgreSQL
+            ▪ Heroku
+            ▪ AWS
+            ▪ Bureau de 50-100 personnes`,
           color: "#15458a",
         },
         {
@@ -499,10 +423,32 @@ const experience = {
           duration_fr: "juil. 2021 - déc. 2021 · 6 mois",
           location: "Paris - France",
           location_fr: "Paris - France",
-          description:
-            "Development of the main tool in React, maintenance of sites in Wordpress/Woocommerce, setting up of routes on the Firebase backend",
-          description_fr:
-            "Développement de l'outil principal en React, maintenance de sites en Wordpress/Woocommerce, mise en place de routes sur le backend Firebase",
+          description: `
+            TASKS :
+            ▪ Development of the main tool in React
+            ▪ Site maintenance in Wordpress/Woocommerce
+            ▪ Setting up routes on the Firebase backend
+            ▪ Maintenance and fixing of several sites in Wordpress
+
+            ENVIRONMENT :
+            ▪ React js
+            ▪ Firebase
+            ▪ Wordpress/Woocommerce
+            ▪ Stripe
+            ▪ Working remotely, startup`,
+          description_fr: `
+            TACHES :
+            ▪ Développement de l'outil principal en React
+            ▪ Maintenance de site en Wordpress/Woocommerce
+            ▪ Mise en place de routes sur le Back Firebase
+            ▪ Maintenance et fix de plusieurs sites sous Wordpress
+            
+            ENVIRONNEMENT 
+            ▪ React js
+            ▪ Firebase
+            ▪ Wordpress/Woocommerce
+            ▪ Stripe
+            ▪ Télétravail, startup`,
           color: "#ffa489",
         },
       ],
@@ -519,12 +465,37 @@ const experience = {
           logo_path: "shawbe.png",
           duration: "oct. 2020 - june 2021 · 10 months",
           duration_fr: "oct. 2020 - juin 2021 · 10 mois",
-          location: "Luxembourg",
-          location_fr: "Luxembourg",
-          description:
-            "Technical stack mainly around JS with a web app in React, a mobile app in React Native and a backend with Firebase. I was also able to develop a payment process with Stripe and do a lot of Wordpress",
-          description_fr:
-            "Stack technique principalement autour de JS avec une application web en React, une application mobile en React Native et un backend avec Firebase. J'ai également pu développer un processus de paiement avec Stripe et faire beaucoup de Wordpress",
+          location: "Luxembourg - Luxembourg",
+          location_fr: "Luxembourg - Luxembourg",
+          description: `
+            TASKS :
+            ▪ Wordpress & Shopify creation
+            ▪ Implementation on Firebase
+            ▪ Admin interface in React
+            ▪ Features and bug fixes in React
+            ▪ Stripe integration
+            ▪ Analytics using Metabase
+            
+            ENVIRONMENT :
+            ▪ React js (redux, babel, templating)
+            ▪ Firebase
+            ▪ Wordpress
+            ▪ Shopify
+            ▪ Stripe
+            ▪ Office of 4-5 people, startup`,
+          description_fr: `
+            TACHES :
+            ▪ Développement de l'outil principal en React
+            ▪ Maintenance de site en Wordpress/Woocommerce
+            ▪ Mise en place de routes sur le Back Firebase
+            ▪ Maintenance et fix de plusieurs sites sous Wordpress
+            
+            ENVIRONNEMENT 
+            ▪ React js
+            ▪ Firebase
+            ▪ Wordpress/Woocommerce
+            ▪ Stripe
+            ▪ Télétravail, startup`,
           color: "#38B28E",
         },
         {
@@ -537,8 +508,32 @@ const experience = {
           duration_fr: "mai 2019 - sept. 2019 · 5 mois",
           location: "Nancy - France",
           location_fr: "Nancy - France",
-          description: "In charge of the development of the POC (Proof of concept) of the Mwoo robot. Setting up the hardware (Arduino/ Raspberry Pi), integration of the different interactions (python) and mobile app to control the robot",
-          description_fr: "En charge du développement du POC (Proof of concept) du robot Mwoo. Mise en place du matériel (Arduino/ Raspberry Pi), intégration des différentes interactions (python) et de l'application mobile pour contrôler le robot",
+          description: `
+            TASKS :
+            ▪ POC of the robot
+            ▪ Hardware set-up
+            ▪ Integration of the different interactions
+            ▪ Mobile app to control the robot
+            
+            ENVIRONMENT :
+            ▪ Raspberry pi
+            ▪ Arduino
+            ▪ Python
+            ▪ Soldering (hardware)
+            ▪ 2-3 person office, startup`,
+          description_fr: `
+            TACHES :
+            ▪ POC du robot
+            ▪ Mise en place de l’Hardware
+            ▪ Intégration des différentes interactions
+            ▪ App mobile pour commander le robot
+            
+            ENVIRONNEMENT 
+            ▪ Raspberry pi
+            ▪ Arduino
+            ▪ Python
+            ▪ Soudure (hardware)
+            ▪ Bureau de 2-3 personnes, startup`,
           color: "#56A4D3",
         },
         {
@@ -551,8 +546,30 @@ const experience = {
           duration_fr: "juil. 2017 - oct. 2017 · 4 mois",
           location: "La Paz - Bolivia",
           location_fr: "La Paz - Bolivie",
-          description: "First internship done in Bolivia. Integration of different external APIs, learn PHP, GIT, HTML / CSS",
-          description_fr: "Premier stage effectué en Bolivie. Intégration de différentes API externes, apprentissage de PHP, GIT, HTML / CSS",
+          description: `
+            TASKS :
+            ▪ Integration of different external APIs
+            ▪ Bug finding and fixing
+
+            ENVIRONMENT :
+            ▪ Postman
+            ▪ PHP
+            ▪ GIT
+            ▪ Docker
+            ▪ HTML / CSS
+            ▪ Office of 8 people, 7 Bolivians and 1 French`,
+          description_fr: `
+            TACHES :
+            ▪ Intégration de différentes API externes
+            ▪ Recherche et correction de bugs
+            
+            ENVIRONNEMENT 
+            ▪ Postman
+            ▪ PHP
+            ▪ GIT
+            ▪ Docker
+            ▪ HTML / CSS
+            ▪ Bureau de 8 personnes, 7 Boliviens et 1 Français`,
           color: "#ea7732",
         },
       ],
@@ -573,7 +590,50 @@ const projectsHeader = {
 const projects = {
   data: [
     {
-      id: "0",
+      id: "10",
+      online: true,
+      name: "Automated garden",
+      name_fr: "Jardin automatisé",
+      url: "https://github.com/Bonk-Wills",
+      description: "Arduino code for an automated garden connected to a dashboard through a NodeJs server",
+      description_fr: "Code Arduino pour un jardin automatisé connecté à un dashboard gérer par un serveur NodeJs",
+      languages: [
+        {
+          name: "Arduino",
+          iconifyClass: "logos-arduino",
+        },
+        {
+          name: "C++",
+          iconifyClass: "logos-c",
+        },
+        {
+          name: "Nodejs",
+          iconifyClass: "logos-nodejs",
+        },
+      ],
+    },
+    {
+      id: "9",
+      online: true,
+      name: "Homeboard",
+      name_fr: "Homeboard",
+      url: "https://github.com/Bonk-Wills/Homeboard",
+      description: "Dashboard extention for Google Chrome to monitor your automated garden and much more",
+      description_fr: "Dashboard extention pour Google chrome pour surveiller votre jardin automatisé et bien plus encore",
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Nodejs",
+          iconifyClass: "logos-nodejs",
+        },
+      ],
+    },
+    {
+      id: "8",
+      online: true,
       name: "My Portfolio",
       name_fr: "Mon Portfolio",
       url: "https://github.com/Hrishi1999/opPortfolio",
@@ -591,27 +651,25 @@ const projects = {
       ],
     },
     {
-      id: "1",
-      name: "Talent.io skill test",
-      name_fr: "Test technique pour talent.io",
-      url: "https://github.com/alexisbonk/talent-test",
+      id: "7",
+      online: true,
+      name: "saperlipaupiette.com",
+      name_fr: "saperlipaupiette.com",
+      url: "https://saperlipaupiette.com/",
       description:
-        "A quick technical test to make a functional calculator with a nice UX in React. I added some bonuses and an easter egg",
+        `Creation of a website for a friends' cooking blog using Wordpress`,
       description_fr:
-        "Un rapide test technique d'une calculatrice fonctionnelle avec une jolie UX en React. J'ai ajouté quelques bonus et un easter egg",
+        "Création d'un site web pour le blog de cuisine d'une amie sous Wordpress",
       languages: [
         {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Bootstrap",
-          iconifyClass: "logos-bootstrap",
+          name: "Wordpress",
+          iconifyClass: "logos-wordpress",
         },
       ],
     },
     {
-      id: "2",
+      id: "6",
+      online: true,
       name: "Turbocube",
       name_fr: "Turbocube",
       url: "https://turbocube.fr/",
@@ -631,14 +689,32 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "5",
+      online: true,
+      name: "laureknob.fr",
+      name_fr: "laureknob.fr",
+      url: "https://laureknob.com/",
+      description:
+        "Creation of a website for a friends' sophrology practice using Wordpress",
+      description_fr:
+        "Création d'un site web pour un cabinet de sophrologie d'une amie sous Wordpress",
+      languages: [
+        {
+          name: "Wordpress",
+          iconifyClass: "logos-wordpress",
+        },
+      ],
+    },
+    {
+      id: "4",
+      online: true,
       name: "Mon Menu 360",
       name_fr: "Mon Menu 360",
       url: "https://monmenu360.fr/",
       description:
-        "Creation of a website for digitize restaurant menus and media using QR codes",
+        "In charge of a website to digitize restaurant menus and media using QR codes",
       description_fr:
-        "Création d'un site web permettant la digitalisation des cartes de restaurants et supports en QR codes",
+        "En charge du développement d'un site web permettant la digitalisation des cartes de restaurants et supports en QR codes",
       languages: [
         {
           name: "ReactJS",
@@ -663,7 +739,8 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "3",
+      online: null,
       name: "Mwoo",
       name_fr: "Mwoo",
       url: "https://www.youtube.com/watch?v=Pxn39h0JdnQ",
@@ -687,14 +764,14 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "2",
+      online: false,
       name: "Pangolist",
       name_fr: "Pangolist",
-      url: "https://gitlab.com/mobile-hybrid1/mobile-hybrid-front",
       description:
-        "Mobile application to manage a gift list in a participative way, school project carried out by 2 other collegues",
+        "Mobile application to manage a gift list in a participative way, school project carried out with 2 other colleagues",
       description_fr:
-        "Application mobile pour gérer une liste de cadeaux de manière participative, projet scolaire réalisé par 2 autres collègues",
+        "Application mobile pour gérer une liste de cadeaux de manière participative, projet scolaire réalisé avec 2 autres collègues",
       languages: [
         {
           name: "Ionic",
@@ -711,10 +788,30 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "2",
+      online: false,
+      name: "bonko.fr",
+      name_fr: "bonko.fr",
+      description:
+        "Shopify/Wordpress website selling articles related to Japanese animation and advertising management via Google Ads",
+      description_fr:
+        "Site de vente d'articles lié à l'animation japonaise sous Shopify/Wordpress et gestion de publicitiés via Google Ads",
+      languages: [
+        {
+          name: "Shopify",
+          iconifyClass: "logos-shopify",
+        },
+        {
+          name: "Wordpress",
+          iconifyClass: "logos-wordpress",
+        },
+      ],
+    },
+    {
+      id: "1",
+      online: false,
       name: "Medfinder",
       name_fr: "Medfinder",
-      url: "https://gitlab.com/medfinder",
       description:
         "3 year study project with 4 other colleagues, I was in charge of the mobile part in React Native and the website in Node js",
       description_fr:
@@ -739,6 +836,7 @@ export {
   socialMediaLinks,
   skills,
   degrees,
+  certifications,
   experience,
   projectsHeader,
   projects,

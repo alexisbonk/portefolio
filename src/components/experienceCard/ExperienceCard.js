@@ -4,6 +4,8 @@ import "./ExperienceCard.css";
 function ExperienceCard(props) {
   const experience = props.experience;
   const theme = props.theme;
+  const descriptionText = props.language === 'en' ? experience["description"] : experience["description_fr"]
+  
   return (
     <div
       className="experience-card"
@@ -57,7 +59,14 @@ function ExperienceCard(props) {
           className="experience-card-description"
           style={{ color: theme.text }}
         >
-          {props.language === 'en' ? experience["description"] : experience["description_fr"]}
+          {descriptionText.split('\n').map((line, index) => {
+            return (
+              <span key={index}>
+                {line}
+                <br />
+              </span>
+            );
+          })}
         </p>
       </div>
     </div>
