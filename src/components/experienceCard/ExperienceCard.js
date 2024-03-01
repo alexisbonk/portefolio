@@ -17,7 +17,7 @@ function ExperienceCard(props) {
       <div className="experience-card-logo-div">
         <img
           className="experience-card-logo"
-          src={require(`../../assests/images/${experience["logo_path"]}`)}
+          src={require(`../../assests/images/experience/${experience["logo_path"]}`)}
           alt=""
         />
       </div>

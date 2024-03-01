@@ -4,44 +4,77 @@ import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 function ProjectLanguages(props) {
   const displayLogos = (logo) => {
+    console.log(logo)
     if (logo.iconifyClass === 'logos-raspberrypi')
       return (
         <img 
-          alt=""
-          style={{width: '30px', marginBottom: '-3px'}} 
-          src="https://cutewallpaper.org/24/raspberry-pi-logo-png/raspberry-pi-logo-transparent-png-stickpng.png"
+          alt="raspberrypi"
+          style={{width: '30px'}} 
+          src="https://cdn.icon-icons.com/icons2/2879/PNG/512/raspberry_food_fruit_icon_182572.png"
+        />
+      )
+    else if (logo.iconifyClass === 'logos-arduino')
+      return (
+        <img 
+          alt="arduino"
+          style={{width: '35px'}} 
+          src="https://cdn.icon-icons.com/icons2/2699/PNG/512/arduino_official_logo_icon_167833.png"
         />
       )
     else if (logo.iconifyClass === 'logos-ionic')
       return (
         <img 
-          alt=""
-          style={{width: '30px', marginBottom: '-3px'}} 
-          src="https://www.svgrepo.com/show/353912/ionic-icon.svg"
+          alt="ionic"
+          style={{width: '30px'}} 
+          src="https://cdn.icon-icons.com/icons2/2415/PNG/512/ionic_original_logo_icon_146462.png"
         />
       )
     else if (logo.iconifyClass === 'logos-heroku')
       return (
         <img 
-          alt=""
-          style={{width: '30px', marginBottom: '-3px'}} 
-          src="https://cdn-icons-png.flaticon.com/512/873/873120.png"
+          alt="heroku"
+          style={{width: '35px'}} 
+          src="https://cdn.icon-icons.com/icons2/2699/PNG/512/heroku_logo_icon_168126.png"
         />
       )
     else if (logo.iconifyClass === 'logos-ovh')
       return (
         <img 
-          alt=""
-          style={{width: '30px', marginBottom: '-3px'}} 
-          src="https://avatars.githubusercontent.com/u/1698434?s=200&v=4"
+          alt="ovh"
+          style={{width: '35px'}} 
+          src="https://cdn.icon-icons.com/icons2/2407/PNG/512/ovh_icon_146131.png"
         />
       )
     else if (logo.iconifyClass === 'logos-mongodb')
       return (
         <img 
-          alt=""
-          style={{width: '30px', marginBottom: '-3px'}} 
-          src="https://www.nicepng.com/png/full/103-1039678_mongodb-logo-01a-graphic-design.png"
+          alt="mongodb"
+          style={{width: '35px'}} 
+          src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"
+        />
+      )
+    else if (logo.iconifyClass === 'logos-wordpress')
+      return (
+        <img 
+          alt="wordpress"
+          style={{width: '35px'}} 
+          src="https://cdn.icon-icons.com/icons2/2699/PNG/512/wordpress_logo_icon_167953.png"
+        />
+      )
+    else if (logo.iconifyClass === 'logos-stripe')
+      return (
+        <img 
+          alt="stripe"
+          style={{width: '35px'}} 
+          src="https://cdn.icon-icons.com/icons2/2407/PNG/512/stripe_icon_146092.png"
+        />
+      )
+    else if (logo.iconifyClass === 'logos-chatgpt')
+      return (
+        <img 
+          alt="chatgpt"
+          style={{width: '35px'}} 
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png"
         />
       )
     else

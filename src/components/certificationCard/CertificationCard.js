@@ -30,7 +30,7 @@ function CertificationCard(props) {
             >
               <img
                 className="logo_img"
-                src={require(`../../assests/images/${certificate.logo_path}`)}
+                src={require(`../../assests/images/certificate/${certificate.logo_path}`)}
                 alt={certificate.alt_name}
               />
             </div>

@@ -30,8 +30,8 @@ function Education(props) {
                 style={{ color: theme.secondaryText }}
               >
                 {props.language === 'en' ? 
-                  'I love organizing pair programming and other tech-related activities. Below are some of my major diplomas.' : 
-                  `J'aime organiser des pair-programming et d'autres activités liées à la tech. Voici quelques-uns de mes principaux diplômes.`
+                  'I focused on IT from the start, first on development, then on security. Here are some of my main qualifications.' : 
+                  `Dès le début je me suis orienté vers l'informatique, d'abord vers le développement puis vers la sécurité. Voici quelques-uns de mes principaux diplômes.`
                 }
               </p>
             </div>

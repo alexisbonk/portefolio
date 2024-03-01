@@ -61,6 +61,16 @@ export default function ProjectCard({ repo, theme, language }) {
               {language === 'en' ? repo.name : repo.name_fr}
             </p>
           </div>
+          <img
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              margin: "15px 0 15px 0",
+            }}
+            src={require(`../../assests/images/project/${repo.image_path}`)}
+            alt={repo.name}
+          />
           <p className="repo-description" style={{ color: theme.text }}>
             {language === 'en' ? repo.description : repo.description_fr}
           </p>

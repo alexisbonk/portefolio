@@ -12,13 +12,13 @@ const greeting = {
   nickname: "alexisbonk",
   full_name: "Alexis Knob",
   subTitle:
-    "Full Stack Developer, Javascript Enthusiast. Always learning.",
+    "Full Stack Developer, Cyber Security Enthusiast. Always learning.",
   subTitle_fr:
-    "Développeur Full Stack, passionné de Javascript. Toujours en train d'apprendre.",
+    "Développeur Full Stack, passionné de cybersécurité. Toujours en train d'apprendre.",
   resumeLink:
     "https://drive.google.com/file/d/1UlltR_1neAa_pspYvNrMsRmqgg5mC46j/view?usp=drive_link",
   resumeLink_fr:
-    "https://drive.google.com/file/d/142pQPbisjE1HDNViZ-FAoQuAb1t-Fofh/view?usp=drive_link",
+    "https://drive.google.com/file/d/15zsu_zQwXLrggLRvTCbwmlmCNs6zysCq/view?usp=drive_link",
   mail: "mailto:alexis.knob@epitech.eu",
 };
 
@@ -37,14 +37,14 @@ const skills = {
       title_fr: "Developpement Fullstack",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website frontend using latest technologies",
-        "⚡ Developing mobile applications using React Native",
-        "⚡ Creating application backend with Firebase or other",
+        "⚡ Building responsive apps & websites",
+        "⚡ Creation and maintaining of backend applications",
+        "⚡ Experience on Arduino and Raspberry Pi",
       ],
       skills_fr: [
-        "⚡ Construire un site web responsive en utilisant les dernières technologies",
-        "⚡ Développer des applications mobiles à l'aide de React Native",
-        "⚡ Créer un backend d'application avec Firebase ou autre",
+        "⚡ Construire des applications & sites web responsives",
+        "⚡ Création et maintenance de backend d'applications",
+        "⚡ Expérience sur Arduino et Raspberry Pi",
       ],
       softwareSkills: [
         {
@@ -65,8 +65,14 @@ const skills = {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            color: "#007ACC",
           },
         },
         {
@@ -78,10 +84,7 @@ const skills = {
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            color: "#f89820",
-          },
+          fontAwesomeClassname: "logos-java",
         },
         {
           skillName: "Ruby",
@@ -92,7 +95,7 @@ const skills = {
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "python",
+          fontAwesomeClassname: "logos-python",
         },
         {
           skillName: "C",
@@ -120,8 +123,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#FFFFFF",
-            backgroundColor: "#1D1D1D",
-            borderRadius: "50%",
           },
         },
         {
@@ -140,7 +141,7 @@ const skills = {
         },
         {
           skillName: "MySQL",
-          fontAwesomeClassname: "mysql",
+          fontAwesomeClassname: "logos-mysql",
         },
         {
           skillName: "Git",
@@ -160,7 +161,7 @@ const skills = {
           skillName: "Shopiphy",
           fontAwesomeClassname: "simple-icons:shopify",
           style: {
-            color: "#96bf48",
+            color: "#96BF48",
           },
         },
         {
@@ -170,37 +171,76 @@ const skills = {
             color: "#02569B",
           },
         },
-      ],
-    },
-    {
-      title: "Robotics & AI",
-      title_fr: "IA & robotique",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Lots of skills on Arduino and all Raspberry Pi devices",
-        "⚡ Experience in assembly and soldering",
-        "⚡ Already work on 5+ Projects",
-      ],
-      skills_fr: [
-        "⚡ Beaucoup de compétences sur Arduino et Raspberry Pi",
-        "⚡ Expérience dans l'assemblage et la soudure",
-        "⚡ Déjà travaillé sur plus de 5 projets",
-      ],
-      softwareSkills: [
         {
           skillName: "Arduino",
           fontAwesomeClassname: "logos-arduino",
           style: {
-            backgroundColor: "transparent",
+            width: 50,
           },
         },
         {
           skillName: "Raspberry Pi",
-          fontAwesomeClassname: "raspberrypi",
+          fontAwesomeClassname: "logos-raspberrypi",
+        },
+      ],
+    },
+    {
+      title: "Cyber-Security",
+      title_fr: "Cyber-Sécurité",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Skills in vulnerability exploitation (Red & Blue Team)",
+        "⚡ Proficiency in penetration testing and attack techniques",
+        "⚡ Strong scores in CTF on RootMe and TryHackMe",
+      ],
+      skills_fr: [
+        "⚡ Compétences en exploitation de vulnérabilités (Red & Blue Team)",
+        "⚡ Maîtrise des tests de pénétration et techniques d'attaques",
+        "⚡ Bons score en CTF sur RootMe et TryHackMe",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Wireshark",
+          fontAwesomeClassname: "logos-wireshark",
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "python",
+          skillName: "Nmap",
+          fontAwesomeClassname: "logos-nmap",
+        },
+        {
+          skillName: "OpenVAS",
+          fontAwesomeClassname: "logos-openvas",
+        },
+        {
+          skillName: "Burp Suite",
+          fontAwesomeClassname: "logos-burp",
+        },
+        {
+          skillName: "Metasploit",
+          fontAwesomeClassname: "simple-icons:metasploit",
+          style: {
+            color: "#286592",
+          },
+        },
+        {
+          skillName: "Hydra",
+          fontAwesomeClassname: "logos-hydra",
+        },
+        {
+          skillName: "NGrok",
+          fontAwesomeClassname: "simple-icons:ngrok",
+        },
+        {
+          skillName: "SQLmap",
+          fontAwesomeClassname: "logos-sqlmap",
+        },
+        {
+          skillName: "John the ripper",
+          fontAwesomeClassname: "logos-john",
+        },
+        {
+          skillName: "Iso 27001",
+          fontAwesomeClassname: "logos-iso",
         },
       ],
     },
@@ -209,16 +249,14 @@ const skills = {
       title_fr: "Cloud Infrastructure",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Ability to work on multiple cloud platforms",
         "⚡ Experience hosting and managing websites",
         "⚡ Working on deep datas models to use on multiples services",
-        "⚡ Experience with Continuous Integration",
       ],
       skills_fr: [
-        "⚡ Expérience de travail sur plusieurs plateformes cloud",
+        "⚡ Compétences de travail sur plusieurs plateformes cloud",
         "⚡ Expérience de l'hébergement et de la gestion de sites web",
-        "⚡ Travailler sur des modèles de données complexes",
-        "⚡ Expérience avec l'intégration continue",
+        "⚡ Déjà travaillé sur des modèles de données complexes",
       ],
       softwareSkills: [
         {
@@ -226,13 +264,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
             color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "mysql",
-          style: {
-            color: "#FF9900",
           },
         },
         {
@@ -271,11 +302,31 @@ const skills = {
 const degrees = {
   degrees: [
     {
+      title: "Secure Infrastructure Administrator, Cybersecurity",
+      title_fr: "Administrateur d'infrastructures sécurisées, Cybersecurité",
+      subtitle: "Jedha Bootcamp",
+      logo_path: "jedha.png",
+      alt_name: "jedha",
+      duration: "2024",
+      descriptions: [
+        "⚡ Skilled in vulnerability detection and Red/Blue Team techniques",
+        "⚡ Proficient in programming (Bash, Python, C) and network protocols",
+        "⚡ Expertise in attack methods: OSINT, Metasploit, OWASP, SQLi, XSS, MITM",
+      ],
+      descriptions_fr: [
+        "⚡ Compétences en détection de vulnérabilités et techniques Red/Blue Team",
+        "⚡ Maîtrise des langages (Bash, Python, C) et protocoles réseau",
+        "⚡ Expertise en techniques d'attaque : OSINT, Metasploit, OWASP, SQLi, XSS, MITM",
+      ],
+      website_link: "https://www.jedha.co/formations/formation-pentester",
+      rotation: "left",
+    },
+    {
       title: "Graduate Diploma in Information Technology",
       title_fr: "Master d'expert en technologies de l'information",
       subtitle: "Epitech",
       logo_path: "epitech.png",
-      alt_name: "SETI",
+      alt_name: "epitech",
       duration: "2016 - 2021",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, databases, networking, etc.",
@@ -295,7 +346,7 @@ const degrees = {
       title_fr: "Computer Science and Information Systems",
       subtitle: "Nelson Mandela University",
       logo_path: "neslon-mandela.png",
-      alt_name: "SETI",
+      alt_name: "neslon-mandela",
       duration: "2019 - 2020",
       descriptions: [
         "⚡ I had the chance to spend one year in one of the best University in South Africa",
@@ -315,7 +366,7 @@ const degrees = {
       title_fr: "BAC S",
       subtitle: "Hélène boucher",
       logo_path: "helene-boucher.png",
-      alt_name: "SETI",
+      alt_name: "helene-boucher",
       duration: "2016",
       descriptions: [
         "⚡ Major diploma after high school in France, obtained with honours ",
@@ -347,7 +398,7 @@ const certifications = {
     {
       title: "Sequence Models",
       subtitle: "deeplearning.ai",
-      logo_path: "googleSummerCode.png",
+      logo_path: "anssi.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
       alt_name: "deeplearning.ai",
@@ -362,9 +413,9 @@ const experience = {
   subtitle: "Jobs and internships",
   subtitle_fr: "Emploi et stage",
   description:
-    "I've completed three internships, mostly done projects on my own and learning from mylself. Now I was recently working in a company as a Software Engineer",
+    "I've had the chance to work in many different places around the globe. Until recently, I worked as a Software Engineer in Paris.",
   description_fr:
-    "J'ai effectué trois stages et réalisé pas mal de projets et appris par moi-même. J'occupais il y a peu un poste d'ingénieur logiciel.",
+    "J'ai eu la chance de travailler dans pas mal d'endroits différents autour du globe. J'occupais il y a peu un poste de Software Engineer à Paris.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -377,8 +428,8 @@ const experience = {
           company: "Talent.io",
           company_url: "https://www.talent.io/p/en-fr/home",
           logo_path: "talentio.png",
-          duration: "jan. 2022 - may 2023 · 1 year and 5 months",
-          duration_fr: "jan. 2022 - mai 2023 · 1 an et 5 mois",
+          duration: "jan. 2022 - jun. 2023 · 1 year and 6 months",
+          duration_fr: "jan. 2022 - jui. 2023 · 1 an et 6 mois",
           location: "Paris - France",
           location_fr: "Paris - France",
           description: `
@@ -451,20 +502,14 @@ const experience = {
             ▪ Télétravail, startup`,
           color: "#ffa489",
         },
-      ],
-    },
-    {
-      title: "Internships",
-      title_fr: "Stages",
-      experiences: [
         {
           title: "Fullstack Developer",
           title_fr: "Developpeur Fullstack",
           company: "Shawbe",
           company_url: "https://shawbe.com/",
           logo_path: "shawbe.png",
-          duration: "oct. 2020 - june 2021 · 10 months",
-          duration_fr: "oct. 2020 - juin 2021 · 10 mois",
+          duration: "july. 2020 - jul. 2021 · 1 year and 1 month",
+          duration_fr: "jui. 2020 - jui 2021 · 1 an et 1 mois",
           location: "Luxembourg - Luxembourg",
           location_fr: "Luxembourg - Luxembourg",
           description: `
@@ -498,14 +543,20 @@ const experience = {
             ▪ Télétravail, startup`,
           color: "#38B28E",
         },
+      ],
+    },
+    {
+      title: "Internships",
+      title_fr: "Stages",
+      experiences: [
         {
-          title: "Project manager, robotics",
-          title_fr: "Projet manager en robotique",
+          title: "Embedded Systems Engineer (IoT)",
+          title_fr: "Ingénieur systèmes intégrés (IoT)",
           company: "Stimul'Activ",
           company_url: "https://stimulactiv.com/",
           logo_path: "stimulactiv.png",
-          duration: "may 2019 - sept. 2019 · 5 months",
-          duration_fr: "mai 2019 - sept. 2019 · 5 mois",
+          duration: "apr. 2019 - aug. 2019 · 5 months",
+          duration_fr: "avr. 2019 - août 2019 · 5 mois",
           location: "Nancy - France",
           location_fr: "Nancy - France",
           description: `
@@ -542,8 +593,8 @@ const experience = {
           company: "Toogonet",
           company_url: "http://www.toogonet.com/",
           logo_path: "toogonet.png",
-          duration: "july 2017 - oct. 2017 · 4 months",
-          duration_fr: "juil. 2017 - oct. 2017 · 4 mois",
+          duration: "jun. 2017 - nov. 2017 · 6 months",
+          duration_fr: "juin 2017 - nov. 2017 · 6 mois",
           location: "La Paz - Bolivia",
           location_fr: "La Paz - Bolivie",
           description: `
@@ -592,23 +643,20 @@ const projects = {
     {
       id: "10",
       online: true,
-      name: "Automated garden",
-      name_fr: "Jardin automatisé",
-      url: "https://github.com/Bonk-Wills",
-      description: "Arduino code for an automated garden connected to a dashboard through a NodeJs server",
-      description_fr: "Code Arduino pour un jardin automatisé connecté à un dashboard gérer par un serveur NodeJs",
+      name: "Custom ChatGPT",
+      name_fr: "Custom ChatGPT",
+      url: "https://github.com/alexisbonk/Custom-ChatGPT",
+      image_path: "customchatgpt.png",
+      description: "Project based on the integration of Google's Speech-to-Text and Text-to-Speech with ChatGPT, creating a conversation with AI.",
+      description_fr: "Projet basé sur l'intégration du Speech-to-Text et Text-to-Speech de Google avec ChatGPT, créant ainsi une conversation avec l'IA.",
       languages: [
         {
-          name: "Arduino",
-          iconifyClass: "logos-arduino",
+          name: "ReactJS",
+          iconifyClass: "logos-react",
         },
         {
-          name: "C++",
-          iconifyClass: "logos-c",
-        },
-        {
-          name: "Nodejs",
-          iconifyClass: "logos-nodejs",
+          name: "ChatGPT",
+          iconifyClass: "logos-chatgpt",
         },
       ],
     },
@@ -617,9 +665,10 @@ const projects = {
       online: true,
       name: "Homeboard",
       name_fr: "Homeboard",
-      url: "https://github.com/Bonk-Wills/Homeboard",
-      description: "Dashboard extention for Google Chrome to monitor your automated garden and much more",
-      description_fr: "Dashboard extention pour Google chrome pour surveiller votre jardin automatisé et bien plus encore",
+      url: "https://github.com/Bonk-Wills",
+      image_path: "homeboard.png",
+      description: "Arduino code for an automated garden connected to a dashboard through a NodeJs server",
+      description_fr: "Code Arduino pour un jardin automatisé, le tout connecté à un dashboard a travers un serveur NodeJs",
       languages: [
         {
           name: "ReactJS",
@@ -629,6 +678,14 @@ const projects = {
           name: "Nodejs",
           iconifyClass: "logos-nodejs",
         },
+        {
+          name: "Arduino",
+          iconifyClass: "logos-arduino",
+        },
+        {
+          name: "C++",
+          iconifyClass: "logos-c",
+        },
       ],
     },
     {
@@ -637,6 +694,7 @@ const projects = {
       name: "My Portfolio",
       name_fr: "Mon Portfolio",
       url: "https://github.com/Hrishi1999/opPortfolio",
+      image_path: "portfolio.png",
       description: "This portfolio. Forked from Hrishi1999's opensource portfolio",
       description_fr: "Ce portfolio. Issu du portefolio opensource de Hrishi1999",
       languages: [
@@ -656,6 +714,7 @@ const projects = {
       name: "saperlipaupiette.com",
       name_fr: "saperlipaupiette.com",
       url: "https://saperlipaupiette.com/",
+      image_path: "saperlipaupiette.png",
       description:
         `Creation of a website for a friends' cooking blog using Wordpress`,
       description_fr:
@@ -673,6 +732,7 @@ const projects = {
       name: "Turbocube",
       name_fr: "Turbocube",
       url: "https://turbocube.fr/",
+      image_path: "turbocube.png",
       description:
         "Vanilla Minecraft server in 1.19 and Discord bot in python, hosted in Strasbourg by OVH",
       description_fr:
@@ -694,6 +754,7 @@ const projects = {
       name: "laureknob.fr",
       name_fr: "laureknob.fr",
       url: "https://laureknob.com/",
+      image_path: "laureknob.png",
       description:
         "Creation of a website for a friends' sophrology practice using Wordpress",
       description_fr:
@@ -711,6 +772,7 @@ const projects = {
       name: "Mon Menu 360",
       name_fr: "Mon Menu 360",
       url: "https://monmenu360.fr/",
+      image_path: "monmenu.png",
       description:
         "In charge of a website to digitize restaurant menus and media using QR codes",
       description_fr:
@@ -744,6 +806,7 @@ const projects = {
       name: "Mwoo",
       name_fr: "Mwoo",
       url: "https://www.youtube.com/watch?v=Pxn39h0JdnQ",
+      image_path: "mwoo.png",
       description:
         "In charge of the development of the POC of the Mwoo robot. Setting up the hardware, integration of the different interactions",
       description_fr:
@@ -768,10 +831,11 @@ const projects = {
       online: false,
       name: "Pangolist",
       name_fr: "Pangolist",
+      image_path: "pangolist.png",
       description:
-        "Mobile application to manage a gift list in a participative way, school project carried out with 2 other colleagues",
+        "Mobile application to manage a gift list in a participative way, project carried out with 2 other colleagues",
       description_fr:
-        "Application mobile pour gérer une liste de cadeaux de manière participative, projet scolaire réalisé avec 2 autres collègues",
+        "Application mobile pour gérer une liste de cadeaux de manière participative, projet réalisé avec 2 autres collègues",
       languages: [
         {
           name: "Ionic",
@@ -792,18 +856,19 @@ const projects = {
       online: false,
       name: "bonko.fr",
       name_fr: "bonko.fr",
+      image_path: "bonkoshop.png",
       description:
         "Shopify/Wordpress website selling articles related to Japanese animation and advertising management via Google Ads",
       description_fr:
         "Site de vente d'articles lié à l'animation japonaise sous Shopify/Wordpress et gestion de publicitiés via Google Ads",
       languages: [
         {
-          name: "Shopify",
-          iconifyClass: "logos-shopify",
-        },
-        {
           name: "Wordpress",
           iconifyClass: "logos-wordpress",
+        },
+        {
+          name: "Shopify",
+          iconifyClass: "logos-shopify",
         },
       ],
     },
@@ -812,6 +877,7 @@ const projects = {
       online: false,
       name: "Medfinder",
       name_fr: "Medfinder",
+      image_path: "medfinder.png",
       description:
         "3 year study project with 4 other colleagues, I was in charge of the mobile part in React Native and the website in Node js",
       description_fr:

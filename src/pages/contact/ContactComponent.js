@@ -36,7 +36,7 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${contactSection.profile_image_path}`)}
+                src={require(`../../assests/images/contact/${contactSection.profile_image_path}`)}
                 alt=""
               />
             </div>

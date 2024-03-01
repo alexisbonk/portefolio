@@ -49,9 +49,7 @@ function Projects(props) {
           return <ProjectCard repo={repo} theme={theme} language={props.language} />;
         })}
       </div>
-      <br />
-      <br />
-      <br />
+      <br/><br/><br/>
       <a
         {...styles}
         className="general-btn"
@@ -61,8 +59,7 @@ function Projects(props) {
       >
         {props.language === 'en' ? 'See more (Github)' : 'Voir plus (Github)'}
       </a>
-      <br />
-      <br />
+      <br/><br/><br/><br/>
       <Footer theme={props.theme} onToggle={props.onToggle}  language={props.language} />
     </div>
   );
