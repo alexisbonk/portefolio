@@ -231,8 +231,8 @@ const skills = {
           fontAwesomeClassname: "simple-icons:ngrok",
         },
         {
-          skillName: "SQLmap",
-          fontAwesomeClassname: "logos-sqlmap",
+          skillName: "Kali Linux",
+          fontAwesomeClassname: "logos-kali",
         },
         {
           skillName: "John the ripper",
@@ -428,8 +428,8 @@ const experience = {
           company: "Talent.io",
           company_url: "https://www.talent.io/p/en-fr/home",
           logo_path: "talentio.png",
-          duration: "jan. 2022 - jun. 2023 · 1 year and 6 months",
-          duration_fr: "jan. 2022 - jui. 2023 · 1 an et 6 mois",
+          start_date: "01/2022",
+          end_date: "06/2023",
           location: "Paris - France",
           location_fr: "Paris - France",
           description: `
@@ -445,8 +445,7 @@ const experience = {
             ▪ ReactJS
             ▪ PostgreSQL
             ▪ Heroku
-            ▪ AWS
-            ▪ 50-100 person office`,
+            ▪ AWS`,
           description_fr: `
             TACHES :
             ▪ Intégration de nouvelles features dans l'app principale
@@ -460,8 +459,7 @@ const experience = {
             ▪ ReactJS
             ▪ PostgreSQL
             ▪ Heroku
-            ▪ AWS
-            ▪ Bureau de 50-100 personnes`,
+            ▪ AWS`,
           color: "#15458a",
         },
         {
@@ -470,8 +468,8 @@ const experience = {
           company: "Aura 360",
           company_url: "https://www.talent.io/p/en-fr/home",
           logo_path: "aura360.png",
-          duration: "july 2021 - dec. 2021 · 6 months",
-          duration_fr: "juil. 2021 - déc. 2021 · 6 mois",
+          start_date: "07/2021",
+          end_date: "12/2021",
           location: "Paris - France",
           location_fr: "Paris - France",
           description: `
@@ -485,8 +483,7 @@ const experience = {
             ▪ React js
             ▪ Firebase
             ▪ Wordpress/Woocommerce
-            ▪ Stripe
-            ▪ Working remotely, startup`,
+            ▪ Stripe`,
           description_fr: `
             TACHES :
             ▪ Développement de l'outil principal en React
@@ -498,9 +495,8 @@ const experience = {
             ▪ React js
             ▪ Firebase
             ▪ Wordpress/Woocommerce
-            ▪ Stripe
-            ▪ Télétravail, startup`,
-          color: "#ffa489",
+            ▪ Stripe`,
+          color: "#7166AA",
         },
         {
           title: "Fullstack Developer",
@@ -508,8 +504,8 @@ const experience = {
           company: "Shawbe",
           company_url: "https://shawbe.com/",
           logo_path: "shawbe.png",
-          duration: "july. 2020 - jul. 2021 · 1 year and 1 month",
-          duration_fr: "jui. 2020 - jui 2021 · 1 an et 1 mois",
+          start_date: "07/2020",
+          end_date: "07/2021",
           location: "Luxembourg - Luxembourg",
           location_fr: "Luxembourg - Luxembourg",
           description: `
@@ -526,21 +522,22 @@ const experience = {
             ▪ Firebase
             ▪ Wordpress
             ▪ Shopify
-            ▪ Stripe
-            ▪ Office of 4-5 people, startup`,
+            ▪ Stripe`,
           description_fr: `
-            TACHES :
-            ▪ Développement de l'outil principal en React
-            ▪ Maintenance de site en Wordpress/Woocommerce
-            ▪ Mise en place de routes sur le Back Firebase
-            ▪ Maintenance et fix de plusieurs sites sous Wordpress
+            TÂCHES :
+            ▪ Création de sites Wordpress et Shopify
+            ▪ Implémentation sur Firebase
+            ▪ Interface d'administration en React
+            ▪ Fonctionnalités et corrections de bugs en React
+            ▪ Intégration Stripe
+            ▪ Analytics à l'aide de Metabase
             
-            ENVIRONNEMENT 
-            ▪ React js
+            ENVIRONNEMENT :
+            ▪ React js (redux, babel, templating)
             ▪ Firebase
-            ▪ Wordpress/Woocommerce
-            ▪ Stripe
-            ▪ Télétravail, startup`,
+            ▪ Wordpress
+            ▪ Shopify
+            ▪ Stripe`,
           color: "#38B28E",
         },
       ],
@@ -555,8 +552,8 @@ const experience = {
           company: "Stimul'Activ",
           company_url: "https://stimulactiv.com/",
           logo_path: "stimulactiv.png",
-          duration: "apr. 2019 - aug. 2019 · 5 months",
-          duration_fr: "avr. 2019 - août 2019 · 5 mois",
+          start_date: "04/2019",
+          end_date: "08/2019",
           location: "Nancy - France",
           location_fr: "Nancy - France",
           description: `
@@ -570,8 +567,7 @@ const experience = {
             ▪ Raspberry pi
             ▪ Arduino
             ▪ Python
-            ▪ Soldering (hardware)
-            ▪ 2-3 person office, startup`,
+            ▪ Soldering (hardware)`,
           description_fr: `
             TACHES :
             ▪ POC du robot
@@ -583,8 +579,7 @@ const experience = {
             ▪ Raspberry pi
             ▪ Arduino
             ▪ Python
-            ▪ Soudure (hardware)
-            ▪ Bureau de 2-3 personnes, startup`,
+            ▪ Soudure (hardware)`,
           color: "#56A4D3",
         },
         {
@@ -593,8 +588,8 @@ const experience = {
           company: "Toogonet",
           company_url: "http://www.toogonet.com/",
           logo_path: "toogonet.png",
-          duration: "jun. 2017 - nov. 2017 · 6 months",
-          duration_fr: "juin 2017 - nov. 2017 · 6 mois",
+          start_date: "06/2017",
+          end_date: "11/2017",
           location: "La Paz - Bolivia",
           location_fr: "La Paz - Bolivie",
           description: `
@@ -607,8 +602,7 @@ const experience = {
             ▪ PHP
             ▪ GIT
             ▪ Docker
-            ▪ HTML / CSS
-            ▪ Office of 8 people, 7 Bolivians and 1 French`,
+            ▪ HTML / CSS`,
           description_fr: `
             TACHES :
             ▪ Intégration de différentes API externes
@@ -619,8 +613,7 @@ const experience = {
             ▪ PHP
             ▪ GIT
             ▪ Docker
-            ▪ HTML / CSS
-            ▪ Bureau de 8 personnes, 7 Boliviens et 1 Français`,
+            ▪ HTML / CSS`,
           color: "#ea7732",
         },
       ],

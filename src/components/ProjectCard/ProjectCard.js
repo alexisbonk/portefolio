@@ -68,7 +68,7 @@ export default function ProjectCard({ repo, theme, language }) {
               objectFit: "cover",
               margin: "15px 0 15px 0",
             }}
-            src={require(`../../assests/images/project/${repo.image_path}`)}
+            src={require(`../../assets/images/project/${repo.image_path}`)}
             alt={repo.name}
           />
           <p className="repo-description" style={{ color: theme.text }}>
