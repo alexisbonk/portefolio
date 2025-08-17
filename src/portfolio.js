@@ -16,9 +16,9 @@ const greeting = {
   subTitle_fr:
     "Développeur Full Stack, passionné de cybersécurité. Toujours en train d'apprendre.",
   resumeLink:
-    "https://drive.google.com/file/d/1UlltR_1neAa_pspYvNrMsRmqgg5mC46j/view?usp=drive_link",
+    "https://drive.google.com/file/d/1UlltR_1neAa_pspYvNrMsRmqgg5mC46j/view?usp=sharing",
   resumeLink_fr:
-    "https://drive.google.com/file/d/15zsu_zQwXLrggLRvTCbwmlmCNs6zysCq/view?usp=drive_link",
+    "https://drive.google.com/file/d/142pQPbisjE1HDNViZ-FAoQuAb1t-Fofh/view?usp=drive_link",
   mail: "mailto:alexis.knob@epitech.eu",
 };
 
@@ -371,7 +371,7 @@ const degrees = {
       descriptions: [
         "⚡ Major diploma after high school in France, obtained with honours ",
         "⚡ English courses",
-        "⚡ ISN option (computer science and digital science)",
+        "⚡ ISN option (Computer Science specialization)",
       ],
       descriptions_fr: [
         "⚡ Diplôme de fin d'études, obtenu avec mention",
@@ -413,15 +413,51 @@ const experience = {
   subtitle: "Jobs and internships",
   subtitle_fr: "Emploi et stage",
   description:
-    "I've had the chance to work in many different places around the globe. Until recently, I worked as a Software Engineer in Paris.",
+    "I've had the chance to work in many different places around the globe. I currently work as an IT consultant in Strasbourg.",
   description_fr:
-    "J'ai eu la chance de travailler dans pas mal d'endroits différents autour du globe. J'occupais il y a peu un poste de Software Engineer à Paris.",
+    "J'ai eu la chance de travailler dans différents endroits autour du globe. J'occupe actuellement un poste de consultant IT à Strasbourg.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Jobs",
       title_fr: "Emplois",
       experiences: [
+        {
+          title: "IT Consultant",
+          title_fr: "Consultant IT",
+          company: "EFOR",
+          company_url: "https://www.talent.io/p/en-fr/home",
+          logo_path: "efor.png",
+          start_date: "01/2025",
+          end_date: null,
+          location: "Strasbourg - France",
+          location_fr: "Strasbourg - France",
+          description: `
+            TASKS :
+            ▪ Configuration/Setup and deployment of servers, websites, and web apps via internal CMS
+            ▪ Maintenance, server configurations (htaccess, symblinks, etc.) and versioning via GIT
+            ▪ Task automation and data exploitation via Python scripts
+            ▪ Technical support, coordination, and assistance for business teams
+            ▪ Monitoring, investigation, and incident resolution
+            
+            ENVIRONMENT :
+            ▪ Internal CMS
+            ▪ Typescript
+            ▪ Python`,
+          description_fr: `
+            TACHES :
+            ▪ Paramétrage/Montage et déploiement de serveurs, sites web et webapps via CMS interne
+            ▪ Maintenance, configurations de serveur (htaccess, symblinks...) et versionning via GIT
+            ▪ Automatisation de tâche et exploitation de données via des scripts en Python
+            ▪ Support technique, coordination et accompagnement auprès des équipes métier
+            ▪ Monitoring, investigation, résolution des incidents
+            
+            ENVIRONNEMENT 
+            ▪ CMS interne
+            ▪ Typescript
+            ▪ Python`,
+          color: "#DBB683",
+        },
         {
           title: "Software Engineer",
           title_fr: "Ingénieur logiciel",
@@ -625,14 +661,34 @@ const projectsHeader = {
   title: "Projects",
   title_fr: "Projets",
   description:
-    "My projects makes use of vast variety of technology tools. A non exhaustive list of projects I did / worked on during either my jobs, studies or my free time.",
+    "A non exhaustive list of projects I did / worked on during either my jobs, studies or my free time.",
   description_fr:
-    "Mes projets font appel à une grande variété d'outils technologiques. Une liste non exhaustive de projets sur lesquels j'ai travaillé pendant mon travail, mes études ou mon temps libre.",
+    "Une liste non exhaustive de projets sur lesquels j'ai travaillé pendant mon travail, mes études ou mon temps libre.",
   avatar_image_path: "projects_image.svg",
 };
 
 const projects = {
   data: [
+    {
+      id: "11",
+      online: true,
+      name: "Spotify Downloader",
+      name_fr: "Spotify Downloader",
+      url: "https://github.com/alexisbonk/spotify-downloader",
+      image_path: "spotifydownloader.png",
+      description: "Download Spotify tracks, albums, and playlists in one click. Save directly to your NAS for instant access in Plex.",
+      description_fr: "Téléchargez titres, albums et playlists Spotify en un clic. Enregistrez directement sur votre NAS pour un accès immédiat via Plex.",
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Nodejs",
+          iconifyClass: "logos-nodejs",
+        },
+      ],
+    },
     {
       id: "10",
       online: true,
@@ -721,10 +777,10 @@ const projects = {
     },
     {
       id: "6",
-      online: true,
+      online: null,
       name: "Turbocube",
       name_fr: "Turbocube",
-      url: "https://turbocube.fr/",
+      url: "https://github.com/Turbocube",
       image_path: "turbocube.png",
       description:
         "Vanilla Minecraft server in 1.19 and Discord bot in python, hosted in Strasbourg by OVH",
